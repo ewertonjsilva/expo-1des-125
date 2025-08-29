@@ -7,12 +7,12 @@ const styles = StyleSheet.create(
             flex: 1,
             backgroundColor: '#ff0', 
             alignItems: 'center', 
-            justifyContent: 'space-evenly', 
+            justifyContent: 'space-evenly',             
         }, 
         titulo: {
             fontSize: RFPercentage(5), 
             fontWeight: 'bold', 
-            color: '#777',
+            color: '#777', 
         }, 
         txt: {
             fontSize: RFPercentage(2.5), 
