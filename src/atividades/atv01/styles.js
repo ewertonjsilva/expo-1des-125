@@ -5,7 +5,7 @@ const styles = StyleSheet.create(
     {
         container: {
             flex: 1,
-            backgroundColor: '#f0f',
+            backgroundColor: 'darkslategrey',
             alignItems: 'center',
         },
         titulo: {
@@ -22,6 +22,9 @@ const styles = StyleSheet.create(
         txtAula: {
             fontSize: RFPercentage(3.5), 
             color: '#00f', 
+        }, 
+        txtNormal: {
+            color: '#eee',
         }
     }
 );

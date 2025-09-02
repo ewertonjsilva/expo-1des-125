@@ -8,7 +8,7 @@ export default function Atividade01() {
             <Text style={styles.titulo}>Atividade 1</Text>
             <Text style={styles.txt}>Introdução React Native com Expo</Text>
             <Text style={styles.txtAula}>Aula do Ewerton</Text>
-            <Text>Bem na sexta feira</Text>
+            <Text style={styles.txtNormal}>Bem na sexta feira</Text>
         </View>
     );
 }

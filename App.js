@@ -4,14 +4,18 @@ import { RFPercentage } from "react-native-responsive-fontsize";
 import Constants from 'expo-constants';
 
 import Exemplo01 from './src/exemplos/ex01';
+import Exemplo02 from './src/exemplos/ex02'; 
+import Exemplo03 from './src/exemplos/ex03';
 
 import Atividade01 from './src/atividades/atv01';
+import Atividade02 from './src/atividades/atv02'; 
+import Atividade03 from './src/atividades/atv03';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade01 />
-      <StatusBar style="auto" />
+      <Atividade02 />
+      <StatusBar style="light" />
     </View>
   );
 }
@@ -19,7 +23,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0ff',
+    backgroundColor: 'darkslategrey',
     padding: RFPercentage(1.2), 
     paddingTop: Constants.statusBarHeight, 
   },
