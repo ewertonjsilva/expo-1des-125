@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
         color: '#fafafa',
         textAlign: 'center',
     },
+    btnGrande: {
+        width: '100%',
+    },
 });
 
 export default styles;

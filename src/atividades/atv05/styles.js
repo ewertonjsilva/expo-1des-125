@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',                 
         width: '100%', 
         marginTop: RFValue(20),
+        marginVertical: RFValue(20),
     }
 });
 
