@@ -28,7 +28,7 @@ import Revisao03 from './src/revisao/rev03';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade06 />
+      <Exemplo08 />
       <StatusBar style="light" />
     </View>
   );

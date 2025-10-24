@@ -5,7 +5,7 @@ import { RFValue } from 'react-native-responsive-fontsize';
 const styles = StyleSheet.create({
     button: {
         height: (Dimensions.get('window').height / 6) - 5,
-        width: (Dimensions.get('window').width / 4) - 5,
+        width: (Dimensions.get('window').width / 4) - 7,
         padding: RFValue(10),
         backgroundColor: '#f0f0f0',
         borderWidth: RFValue(1),
@@ -23,10 +23,10 @@ const styles = StyleSheet.create({
         color: '#FFF',
     },
     buttonDouble: {
-        width: ((Dimensions.get('window').width / 4) - 5) * 2,
+        width: ((Dimensions.get('window').width / 4) - 7) * 2,
     },
     buttonTriple: {
-        width: ((Dimensions.get('window').width / 4) - 5) * 3,
+        width: ((Dimensions.get('window').width / 4) - 7) * 3,
     },
 });
 export default styles;
