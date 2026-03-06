@@ -1,7 +1,6 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
-import AntDesign from '@expo/vector-icons/AntDesign';
 
 import StackExemplos from './stackExemplos';
 import StackAtividades from './stackAtividades';
@@ -54,8 +53,9 @@ function BottomTabs() {
                     {
                         tabBarIcon: ({ focused }) => {
                             // You can return any component that you like here!
-                            const color = focused ? 'tomato' : 'gray';
-                            return <MaterialCommunityIcons name="notebook-edit-outline" size={24} color={color} />;
+                            const color = focused ? 'tomato' : 'gray'; 
+                            const icone = focused ? 'notebook-edit' : 'notebook-edit-outline';
+                            return <MaterialCommunityIcons name={icone} size={24} color={color} />;
                         },
                     }
                 }
