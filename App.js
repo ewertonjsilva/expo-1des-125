@@ -35,12 +35,13 @@ import ListaExemplos from './src/exemplos/listaExemplos';
 import StackExemplos from './src/navegacao/stackExemplos';
 import StackAtividades from './src/navegacao/stackAtividades'; 
 import BottomTabs from './src/navegacao/bottomTabs';
+import MyDrawer from './src/navegacao/drawer';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <NavigationContainer>
-        <BottomTabs />
+        <MyDrawer />
       </NavigationContainer>
       <StatusBar style="light" />
     </View>
